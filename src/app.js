@@ -1,8 +1,8 @@
 const express = require('express');
 const helmet = require('helmet');
 const cors = require('cors');
-const router = require('./src/routes');
-const errorHandler = require('./src/utils/errorHandler');
+const router = require('./routes');
+const errorHandler = require('./utils/errorHandler');
 const handlebars = require('express-handlebars');
 require('dotenv').config();
 
