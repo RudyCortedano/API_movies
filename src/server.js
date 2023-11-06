@@ -1,4 +1,5 @@
-const app = require('./app');
+const app = require('../app');
+// const app = require('../index.js');
 const sequelize = require('./utils/connection');
 require('./models')
 
